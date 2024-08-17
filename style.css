@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e8e8e8;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+ 
+  
+}
+.left_header{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.right_header{
+    width: 69%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+.logo{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.right_header ul{
+    list-style: none;
+    float: right;
+    margin-right: 300px;
+}
+.right_header ul li{
+    width: auto;
+    margin-right: 30px;
+    float: left;
+}
+.right_header ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: block;
+    
+}
+.a_tag{
+    color: rgb(47, 47, 47);
+    
+}
+.trial{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    /* background: #3D66B0 ; */
+    background: linear-gradient(180deg, #3D66B0 0%, #0F1D41 100%);
+    border-radius: 120px;
+   font-weight: bold;
+  
+}
+.banner{
+    width: 100%;
+    height: 500px;
+}
+.left_banner{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.right_banner{
+    width: 49%;
+    height: 500px;
+    float: left;
+}
+.left_banner h1{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    font-size: 45px
+}
+.left_banner p{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    font-size: 20px
+}
+.botton_section{
+    margin-left: 300px;
+    height: 50px;
+}
+.btn{
+    width: auto;
+    padding: 15px;
+    background: #00608d;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 80px;
+  
+}
+.right_banner img{
+    width: 500px;
+}
+.course_section{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    /* background: #ffffff; */
+}
+.bottom_course_section{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+.left_bottom_course_section{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.right_bottom_course_section{
+    width: 49%;
+    height: 600px;
+    float: left;
+    display: grid;
+    grid-template-columns: 270px 270px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 10px;
+    border-radius: 10px;
+    /* float: left; */
+}
+.box2{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(180deg, #3D66B0 0%, #0F1D41 100%);
+    margin: 10px;
+    border-radius: 10px;
+    /* float: left; */
+}
+.box2 p{
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+}
+.box2 a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #ffffff;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.sponsor_section{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+}
+.left_sponsor_section{
+    width: 50%;
+    height: 300px;
+
+    float: left;
+    border: 1px solid rgb(38, 255, 0);
+}
+.right_sponsor_section{
+    width: 49%;
+    height: 300px;
+    float: left;
+    border: 1px solid rgb(55, 0, 255);
+}
+.left_sponsor_section img{
+    width: 400px;
+    height: 200px;
+    margin-left: 300px;
+}
+.left_sponsor_section h1{
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width : 360px) and (max-width : 400px){
+    .header{
+        width: 100%;
+        height: 200px;
+       
+    }
+    .left_header{
+        width: 100%;
+        float: none;
+        height: 70px;
+    }
+    .right_header{
+        width: 100%;
+        float: none;
+        height: 130px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .right_header ul{
+        float: left;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .right_header ul li a{
+        font-size: 15px;
+  
+
+    }
+    .right_header ul li{
+        margin-right: 5px;
+    }
+    .trial{
+        width: 150px;
+        font-size: 12px;
+        margin-top: -20px;
+       
+    }
+
+
+    .banner{
+        width: 100%;
+        height: 800px;
+    }
+    .left_banner{
+        width: 100%;
+        height: 400px;
+        float: none;
+    }
+    .right_banner{
+        width: 100%;
+        height: 300px;
+        float: none;
+    }
+    .left_banner h1{
+        margin-left: 10px;
+    }
+    .left_banner p{
+        margin-left: 10px;
+    }
+    .botton_section{
+        margin-left: 10px;
+    }
+    .btn{
+        width: 150px;
+        font-size: 16px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .right_banner img{
+        width: 300px;
+    }
+    .course_section{
+        width: 100%;
+        height: 1300px;
+
+    }
+    .bottom_course_section{
+        width: 100%;
+        height: 1000px;
+    }
+    .left_bottom_course_section{
+        width: 100%;
+        height: 450px;
+        float: none;
+    }
+    .left_bottom_course_section img{
+        width: 320px;
+        height: 400px;
+    }
+    .right_bottom_course_section{
+        width: 100%;
+        height: 600px;
+        float: none;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box{
+        width: 340px;
+    }
+    .box2{
+        width: 340px;
+    }
+    .box2 a{
+        width: 260px;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* batch 4.00  */
+
+/* @media only screen and (min-width : 360px) and (max-width:400px){
+    .header{
+        width: 100%;
+        height: 250px;
+    }
+    .left_header{
+        width: 100%;
+        height: 70px;
+        float: none;
+    }
+    .right_header{
+        width: 100%;
+        height: 80px;
+        float: none;
+    }
+    .logo{
+        margin:10px;
+    }
+    .right_header ul{
+        margin-left: 10px;
+        width: 100%;
+        float: left;
+    }
+    .right_header ul li a{
+        font-size: 12px;
+    }
+    .trial{
+        margin: 0px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 600px;
+    }
+    .left_banner{
+        width: 100%;
+        height: 300px;
+        float: none;
+    }
+    .right_banner{
+        width: 100%;
+        float: none;
+    }
+    .left_banner h1{
+        margin: 10px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .left_banner p{
+        margin: 10px;
+    }
+    .botton_section{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .btn{
+        width: auto;
+        font-size: 12px;
+    }
+    .right_banner img{
+        width: 300px;
+    }
+
+    .course_section{
+        width: 100%;
+        height: 1800px;
+    }
+    .bottom_course_section{
+        width: 100%;
+        height: 1000px;
+    }
+    .left_bottom_course_section{
+        width: 100%;
+        height: 500px;
+        float: none;
+    }
+    .left_bottom_course_section img{
+        width: 340px;
+        height: 400px;
+    }
+    .right_bottom_course_section{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .box{
+        width: 340px;
+    }
+    .box2{
+        width: 340px;
+    }
+    .box2 a{
+        width: 250px;
+    }
+} */
